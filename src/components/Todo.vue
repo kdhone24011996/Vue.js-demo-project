@@ -16,7 +16,7 @@
           <label :for="id">{{ todo.title }}</label>
         </div>
         <div>
-          <button @click="edit">EDIT</button>
+          <button @click="edit" style="color:white">EDIT</button>
           <button
             @click="$emit('del-todo', todo.id)"
             style="color: white; background-color: red; opacity: 0.8"
